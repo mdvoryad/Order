@@ -19,7 +19,7 @@ int counter = 0;
 
         RestTemplate restTemplate = new RestTemplate();
 
-        String url = "http://localhost:9298/deliverProduct";
+        String url = "http://external.services.com:3/deliverProduct";
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
